@@ -431,14 +431,16 @@ body
     cursor: pointer
     border: 1px solid #cdd6f3
 
+
   .error-message
     color: #d9534f
-    margin-top: 5px
+    padding: 0
+    margin: 0
     font-size: 12px
-
+    
   &.has-error
     input
-      border: 1px solid #d9534f
+      border: 1px solid red
 
 .success-message
   margin-top: 20px
